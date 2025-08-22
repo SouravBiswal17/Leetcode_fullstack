@@ -40,7 +40,7 @@ function Homepage() {
 
   const handleLogout = () => {
     dispatch(logoutUser());
-    setSolvedProblems([]); // Clear solved problems on logout
+    setSolvedProblems([]); 
   };
 
   const filteredProblems = problems.filter(problem => {
